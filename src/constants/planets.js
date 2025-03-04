@@ -1,0 +1,63 @@
+export const PLANETS = {
+  mercury: {
+    name: "Mercury",
+    baseSize: 0.38,
+    baseDistance: 12,
+    baseSpeed: 4.787,
+    textureUrl: "/textures/mercury.jpg",
+  },
+  venus: {
+    name: "Venus",
+    baseSize: 0.95,
+    baseDistance: 15,
+    baseSpeed: 3.502,
+    textureUrl: "/textures/venus.jpg",
+  },
+  earth: {
+    name: "Earth",
+    baseSize: 1,
+    baseDistance: 20,
+    baseSpeed: 2.978,
+    textureUrl: "/textures/earth.jpg",
+  },
+  mars: {
+    name: "Mars",
+    baseSize: 0.532,
+    baseDistance: 25,
+    baseSpeed: 2.407,
+    textureUrl: "/textures/mars.jpg",
+  },
+  jupiter: {
+    name: "Jupiter",
+    baseSize: 11.209,
+    baseDistance: 32,
+    baseSpeed: 1.307,
+    textureUrl: "/textures/jupiter.jpg",
+  },
+  saturn: {
+    name: "Saturn",
+    baseSize: 9.449,
+    baseDistance: 38,
+    baseSpeed: 0.969,
+    textureUrl: "/textures/saturn.jpg",
+    rings: {
+      innerRadius: 10,
+      outerRadius: 20,
+      textureUrl: "/textures/saturn-rings.png",
+    },
+  },
+  uranus: {
+    name: "Uranus",
+    baseSize: 4.007,
+    baseDistance: 43,
+    baseSpeed: 0.681,
+    textureUrl: "/textures/uranus.jpg",
+  },
+  neptune: {
+    name: "Neptune",
+    baseSize: 3.883,
+    baseDistance: 48,
+    baseSpeed: 0.543,
+    textureUrl: "/textures/neptune.jpg",
+  },
+};
